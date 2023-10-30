@@ -1,0 +1,40 @@
+.header-navbar {
+    background-color: #fbdb58;
+}
+
+nav div h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5em !important;
+    padding-left: 0.3em;
+}
+
+nav div h1 span {
+    color: #703c13
+}
+
+.side-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.conf-icon {
+    margin-top: 50px;
+}
+
+.profile-photo-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Hides anything that goes outside the container (i.e., parts of the image) */
+    display: inline-block; /* Ensures the container does not stretch */
+}
+
+.profile-photo-container img {
+    display: block;
+    width: 100%; /* This will ensure the width is always 30px because of its parent container */
+    height: 100%; /* This will ensure the height is always 30px because of its parent container */
+    object-fit: cover; /* This property ensures that the image covers the entire space of the container while maintaining its aspect ratio */
+    object-position: center; /* This ensures the center of the image stays centered in the container */
+}
