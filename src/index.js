@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './views/Home.js';
-import reportWebVitals from './reportWebVitals';
+//import react into the bundle
+import React from "react";
+import { createRoot } from 'react-dom/client';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>
-);
+//include your index.scss file into the bundle
+import "./styles/home.css";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//import your own components
+import Layout from "./layout.js";
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+//render your react application
+root.render(<Layout tab="home" />);
