@@ -20,7 +20,7 @@ export const TopNavbar = () => {
                 <span>Welcome, {username}</span>
                 {/* {!profilePicture ? <i className="fas fa-user-circle text-2xl"></i> : <img src={profilePicture} />} */}
                 <div className="profile-photo-container">
-                <img src={portrait} alt="Profile Photo"/>
+                    <img src={portrait} alt="Profile Photo" />
                 </div>
             </div>
         </nav>

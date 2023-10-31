@@ -4,12 +4,10 @@ import '../styles/home.css';
 
 import { Navbar } from "../components/Navbar.jsx"
 
-const Home = () => {
+export const Home = () => {
   return (
     <div className="App">
       <Navbar />
     </div>
   );
 }
-
-export default Home;
