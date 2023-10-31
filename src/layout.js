@@ -7,7 +7,6 @@ import ReactDOM from "react-dom/client";
 
 import injectContext from "./store/appContext";
 
-import "./index.css";
 import { Home } from "./views/Home.js";
 // import reportWebVitals from "./reportWebVitals";
 
