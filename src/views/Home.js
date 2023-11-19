@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import "../styles/home.css";
 import { TopNavbar } from "../components/TopNavbar.jsx";
 import { SideNavbar } from "../components/SideNavbar.jsx";
+import { HomeHeader } from "../components/HomeHeader.jsx";
+import { GiftHomeCard } from "../components/GiftHomeCard.jsx";
+import giftIcon from "../images/gift-icon.jpg";
+import { MainFooter } from "../components/MainFooter.jsx";
 
 export const Home = () => {
   const [mainGiftsList, setMainGiftsList] = useState([
@@ -97,7 +101,13 @@ export const Home = () => {
     },
   ]);
 
-  console.log(mainGiftsList);
+  // name: "Samsung 4K Smart TV",
+  //     brand: "Samsung",
+  //     shop: "Amazon",
+  //     price: 599.99,
+  //     category: "Electronics",
+  //     shipping_option: ["Me", "Gifter"],
+  //     delivery_date: "2023-01-15",
 
   return (
     <div className="App">
@@ -105,8 +115,20 @@ export const Home = () => {
       <div className="main-container">
         <SideNavbar />
         <main>
-          <header>aqui hay un header</header>
-          <p>some content</p>
+          <HomeHeader />
+          {mainGiftsList.map((gift, index) => (
+            <GiftHomeCard
+              key={index}
+              name={gift.name}
+              brand={gift.brand}
+              shop={gift.shop}
+              price={gift.price}
+              category={gift.category}
+              shipping_option={gift.shipping_option}
+              delivery_date={gift.delivery_date}
+              image={giftIcon}
+            />
+          ))}
         </main>
       </div>
     </div>
