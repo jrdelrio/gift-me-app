@@ -1,0 +1,16 @@
+.event-title {
+    font-size: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.event-footer-left, 
+.event-footer-right {
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.card-footer {
+    border-top: none;
+    background-color: rgba(250, 235, 215, 0);
+}
