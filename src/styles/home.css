@@ -1,3 +1,18 @@
 body {
   background-color: rgba(193, 193, 193, 0.87)
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set the height of the main container to the full viewport height */
+}
+
+.main-container {
+  display: flex;
+}
+
+main {
+  flex: 1; /* Allow the main content to take up the remaining space */
+  padding: 20px; /* Add some padding for better readability */
+}
