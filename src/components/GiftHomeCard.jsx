@@ -4,7 +4,6 @@ export const GiftHomeCard = (props) => {
 
     const formattedDate = new Date(props.delivery_date).toLocaleDateString("en-US", {
         weekday: "long",
-        year: "numeric",
         month: "long",
         day: "numeric",
     });
@@ -38,7 +37,7 @@ export const GiftHomeCard = (props) => {
                     </div>
                     <div className="row">
                         <p className="mt-1 text-sm font-normal text-gray-600">
-                            <i className="fa-solid fa-truck-fast"></i> Delivery date: {formattedDate}
+                            <i className="fa-solid fa-truck-fast"></i> {formattedDate}
                         </p>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ export const SideNavbar = () => {
                             <div className="flex items-center justify-between p-2 hover:bg-gray-700">
                                 <div className="flex items-center">
                                     <i className="fas fa-file-alt mr-2"></i>
-                                    <span><i class="fa-regular fa-user"></i>My Events</span>
+                                    <span><i className="fa-regular fa-user"></i>My Events</span>
                                 </div>
                                 <i className={myEvDd.icon} onClick={handleMyEvDropdown}></i>
                             </div>
@@ -86,7 +86,7 @@ export const SideNavbar = () => {
                     <li ref={myEvRef} className="opcion-con-desplegable">
                         <div className="flex items-center justify-between p-2 hover:bg-gray-700">
                             <div className="flex items-center">
-                                <i class="fa-regular fa-user"></i>
+                                <i className="fa-regular fa-user"></i>
                                 <span style={{ marginLeft: "10px" }}>My Events</span>
                             </div>
                             <i className={myEvDd.icon} onClick={handleMyEvDropdown}></i>
