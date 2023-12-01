@@ -9,6 +9,7 @@ import injectContext from "./store/appContext";
 
 import { Home } from "./views/Home.js";
 import { Login } from "./views/Login.js"
+import { Register } from "./views/Register.js";
 // import reportWebVitals from "./reportWebVitals";
 
 import { MainFooter } from "./components/MainFooter.jsx";
@@ -27,8 +28,9 @@ const Layout = () => {
       <BrowserRouter>
         {/* <ScrollToTop> */}
         <Routes>
-          <Route element={<Home />} path="/" />
+          <Route element={<Home />} path="/home" />
           <Route element={<Login />} path="/login" />
+          <Route element={<Register />} path="/register" />
         </Routes>
 
         {/* </ScrollToTop> */}
