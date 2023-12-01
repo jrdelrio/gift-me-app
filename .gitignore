@@ -11,6 +11,9 @@
 # production
 /build
 
+# Ignore all files starting with a dot
+.*
+
 # misc
 .DS_Store
 .env.local
