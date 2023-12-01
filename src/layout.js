@@ -8,6 +8,7 @@ import ReactDOM from "react-dom/client";
 import injectContext from "./store/appContext";
 
 import { Home } from "./views/Home.js";
+import { Login } from "./views/Login.js"
 // import reportWebVitals from "./reportWebVitals";
 
 import { MainFooter } from "./components/MainFooter.jsx";
@@ -27,6 +28,7 @@ const Layout = () => {
         {/* <ScrollToTop> */}
         <Routes>
           <Route element={<Home />} path="/" />
+          <Route element={<Login />} path="/login" />
         </Routes>
 
         {/* </ScrollToTop> */}

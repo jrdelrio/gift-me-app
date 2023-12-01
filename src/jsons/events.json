@@ -1,127 +1,126 @@
 {
-    "myEvents": [
-      {
-        "title": "Event 1",
-        "date": "2023-12-01",
-        "numItems": 75,
-        "itemsReady": 25
-      },
-      {
-        "title": "Event 2",
-        "date": "2023-12-05",
-        "numItems": 50,
-        "itemsReady": 20
-      },
-      {
-        "title": "Event 3",
-        "date": "2023-12-10",
-        "numItems": 80,
-        "itemsReady": 40
-      },
-      {
-        "title": "Event 4",
-        "date": "2023-12-15",
-        "numItems": 60,
-        "itemsReady": 10
-      },
-      {
-        "title": "Event 5",
-        "date": "2023-12-20",
-        "numItems": 90,
-        "itemsReady": 70
-      },
-      {
-        "title": "Event 6",
-        "date": "2023-12-25",
-        "numItems": 40,
-        "itemsReady": 15
-      },
-      {
-        "title": "Event 7",
-        "date": "2023-12-30",
-        "numItems": 70,
-        "itemsReady": 30
-      },
-      {
-        "title": "Event 8",
-        "date": "2024-01-05",
-        "numItems": 55,
-        "itemsReady": 5
-      },
-      {
-        "title": "Event 9",
-        "date": "2024-01-10",
-        "numItems": 65,
-        "itemsReady": 50
-      },
-      {
-        "title": "Event 10",
-        "date": "2024-01-15",
-        "numItems": 85,
-        "itemsReady": 60
-      }
-    ],
-    "externalEvents": [
-      {
-        "title": "Event A",
-        "date": "2023-12-02",
-        "numItems": 70,
-        "itemsReady": 30
-      },
-      {
-        "title": "Event B",
-        "date": "2023-12-06",
-        "numItems": 45,
-        "itemsReady": 15
-      },
-      {
-        "title": "Event C",
-        "date": "2023-12-11",
-        "numItems": 75,
-        "itemsReady": 40
-      },
-      {
-        "title": "Event D",
-        "date": "2023-12-16",
-        "numItems": 55,
-        "itemsReady": 10
-      },
-      {
-        "title": "Event E",
-        "date": "2023-12-21",
-        "numItems": 85,
-        "itemsReady": 70
-      },
-      {
-        "title": "Event F",
-        "date": "2023-12-26",
-        "numItems": 35,
-        "itemsReady": 20
-      },
-      {
-        "title": "Event G",
-        "date": "2024-01-01",
-        "numItems": 65,
-        "itemsReady": 35
-      },
-      {
-        "title": "Event H",
-        "date": "2024-01-06",
-        "numItems": 50,
-        "itemsReady": 5
-      },
-      {
-        "title": "Event I",
-        "date": "2024-01-11",
-        "numItems": 60,
-        "itemsReady": 55
-      },
-      {
-        "title": "Event J",
-        "date": "2024-01-16",
-        "numItems": 80,
-        "itemsReady": 60
-      }
-    ]
-  }
-  
+  "myEvents": [
+    {
+      "title": "John's Birthday",
+      "date": "2023-12-01",
+      "numItems": 75,
+      "itemsReady": 25
+    },
+    {
+      "title": "Susan's Wedding",
+      "date": "2023-12-05",
+      "numItems": 50,
+      "itemsReady": 20
+    },
+    {
+      "title": "Alice's Graduation",
+      "date": "2023-12-10",
+      "numItems": 80,
+      "itemsReady": 40
+    },
+    {
+      "title": "Tom's Farewell",
+      "date": "2023-12-15",
+      "numItems": 60,
+      "itemsReady": 10
+    },
+    {
+      "title": "Emily's Baby Shower",
+      "date": "2023-12-20",
+      "numItems": 90,
+      "itemsReady": 70
+    },
+    {
+      "title": "Michael's Art Show",
+      "date": "2023-12-25",
+      "numItems": 40,
+      "itemsReady": 15
+    },
+    {
+      "title": "David's Concert",
+      "date": "2023-12-30",
+      "numItems": 70,
+      "itemsReady": 30
+    },
+    {
+      "title": "Eva's Book Launch",
+      "date": "2024-01-05",
+      "numItems": 55,
+      "itemsReady": 5
+    },
+    {
+      "title": "Olivia's Charity Event",
+      "date": "2024-01-10",
+      "numItems": 65,
+      "itemsReady": 50
+    },
+    {
+      "title": "Daniel's Art Workshop",
+      "date": "2024-01-15",
+      "numItems": 85,
+      "itemsReady": 60
+    }
+  ],
+  "externalEvents": [
+    {
+      "title": "Grace's Exhibition",
+      "date": "2023-12-02",
+      "numItems": 70,
+      "itemsReady": 30
+    },
+    {
+      "title": "Robert's Conference",
+      "date": "2023-12-06",
+      "numItems": 45,
+      "itemsReady": 15
+    },
+    {
+      "title": "Sophia's Fashion Show",
+      "date": "2023-12-11",
+      "numItems": 75,
+      "itemsReady": 40
+    },
+    {
+      "title": "Matthew's Workshop",
+      "date": "2023-12-16",
+      "numItems": 55,
+      "itemsReady": 10
+    },
+    {
+      "title": "Emma's Product Launch",
+      "date": "2023-12-21",
+      "numItems": 85,
+      "itemsReady": 70
+    },
+    {
+      "title": "James' Art Show",
+      "date": "2023-12-26",
+      "numItems": 35,
+      "itemsReady": 20
+    },
+    {
+      "title": "Lily's Charity Gala",
+      "date": "2024-01-01",
+      "numItems": 65,
+      "itemsReady": 35
+    },
+    {
+      "title": "William's Tech Event",
+      "date": "2024-01-06",
+      "numItems": 50,
+      "itemsReady": 5
+    },
+    {
+      "title": "Ava's Cooking Class",
+      "date": "2024-01-11",
+      "numItems": 60,
+      "itemsReady": 55
+    },
+    {
+      "title": "Jackson's Music Festival",
+      "date": "2024-01-16",
+      "numItems": 80,
+      "itemsReady": 60
+    }
+  ]
+}
